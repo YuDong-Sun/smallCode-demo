@@ -34,6 +34,12 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    url: "http://t.yushu.im",
+    coming: "/v2/movie/coming_soon",//最新上映
+    theaters: '/v2/movie/in_theaters',//热门
+    top250: "/v2/movie/top250",//top250
+    subject: "/v2/movie/subject/",//详情
+    search: "/v2/movie/search"//搜索
   }
 })
